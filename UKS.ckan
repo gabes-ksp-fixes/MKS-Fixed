@@ -1,0 +1,63 @@
+{
+    "spec_version": "v1.34",
+    "identifier": "UKS",
+    "name": "MKS by USI (with fixes)",
+    "abstract": "MKS by USI (with fixes)",
+    "author": ["RoverDude"],
+    "version": "v1.0.0",
+    "ksp_version_min": "1.12.0",
+    "ksp_version_max": "1.12.99",
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://github.com/gabes-ksp-fixes/MKS-Fixed",
+        "repository": "https://github.com/gabes-ksp-fixes/MKS-Fixed",
+        "bugtracker": "https://github.com/gabes-ksp-fixes/MKS-Fixed/issues"
+    },
+    "tags": [
+        "crewed",
+        "parts",
+        "plugin"
+    ],
+    "depends": [
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "Firespitter"
+        },
+        {
+            "name": "USITools"
+        },
+        {
+            "name": "CommunityResourcePack"
+        },
+        {
+            "name": "CommunityCategoryKit"
+        },
+        {
+            "name": "USI-Core"
+        },
+        {
+            "name": "Konstruction"
+        }
+    ],
+    "suggests": [
+        {
+            "name": "USI-LS"
+        }
+    ],
+    "conflicts": [
+        {
+            "name": "SETI-CommunityTechTree"
+        }
+    ],
+    "install": [
+        {
+            "find": "GabesFixes",
+            "install_to": "GameData"
+        }
+    ],
+    "download": [
+        "https://github.com/gabes-ksp-fixes/MKS-Fixed/releases/download/v1.0.0/MKS-Fixed.zip"
+    ]
+}
