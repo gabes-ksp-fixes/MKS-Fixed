@@ -130,7 +130,15 @@ namespace WOLF
             {
                 return false;
             }
-            Passengers.Remove(passenger);
+
+            var passengerToRemove = Passengers.SingleOrDefault(p =>
+                p.Name == passenger.Name && p.DisplayName == passenger.DisplayName &&
+                p.IsTourist == passenger.IsTourist && p.Occupation == passenger.Occupation);
+            if (passengerToRemove != null)
+            {
+                Passengers.Remove(passengerToRemove);
+            }
+
             if (Passengers.Count < 1)
             {
                 FlightStatus = FlightStatus.Boarding;
