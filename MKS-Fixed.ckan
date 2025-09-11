@@ -53,7 +53,7 @@
     ],
     "install": [
         {
-            "find": "GabesFixes",
+            "find": "UmbraSpaceIndustries",
             "install_to": "GameData"
         }
     ],
