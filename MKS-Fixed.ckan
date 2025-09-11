@@ -1,6 +1,6 @@
 {
     "spec_version": "v1.34",
-    "identifier": "UKS",
+    "identifier": "MKS-Fixed",
     "name": "MKS by USI (with fixes)",
     "abstract": "MKS by USI (with fixes)",
     "author": ["RoverDude"],
@@ -60,4 +60,5 @@
     "download": [
         "https://github.com/gabes-ksp-fixes/MKS-Fixed/releases/download/v1.0.0/MKS-Fixed.zip"
     ]
+
 }
